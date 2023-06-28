@@ -13,4 +13,4 @@ outputs:
 
 runs:
   using: node16
-  main: action/index.js
+  main: index.js

@@ -1,0 +1,15 @@
+name: MongoDb Backup
+description: Makes mongodump backup 
+inputs:
+  connection-string:
+    description: connection string from mongo
+    required: true
+  username:
+    required: true
+
+outputs:
+  binary-backup:
+    description: binary backup as artifact
+
+runs: node16
+main: action/index.js

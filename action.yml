@@ -11,5 +11,6 @@ outputs:
   binary-backup:
     description: binary backup as artifact
 
-runs: node12
-main: action/index.js
+runs:
+  using: node16
+  main: action/index.js

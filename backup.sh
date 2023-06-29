@@ -9,7 +9,6 @@ do
     esac
 done
 
-
 # Set the MongoDB connection string and username
 # connection_string="mongodb+srv://default.sjqol14.mongodb.net/"
 # username="admin"
